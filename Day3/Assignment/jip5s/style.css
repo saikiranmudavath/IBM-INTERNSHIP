@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  background-color: black;
+}
+body {
+  height: 90%;
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  background-color: #b92020;
+  border: 2px solid rgb(170, 38, 49);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.box {
+  width: 70%;
+  height: 15%;
+  margin: auto;
+  margin-top: 23%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  background-color: rgb(34, 34, 34);
+}
+
+.box > * {
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  padding: 30px 10px 30px;
+}
+.maintext {
+  color: white;
+  font-size: 15px;
+  margin: 10px;
+}
+.secondarytext {
+  color: rgb(170, 38, 49);
+}

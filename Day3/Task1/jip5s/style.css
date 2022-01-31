@@ -1,0 +1,42 @@
+.box {
+  max-height: 500px;
+  min-height: 500px;
+  max-width: 600px;
+  min-width: 200px;
+
+  background-color: cyan;
+  color: blue;
+  font-size: 25px;
+  border-radius: 20px;
+  border: 6px solid black;
+  margin: 10px 30px;
+  padding: 20px 40px;
+}
+
+.inner-box {
+  width: 150px;
+  height: 250px;
+
+  padding-top: 40px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 120px;
+
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 30px;
+  margin-right: 90px;
+
+  background-color: rgb(155, 190, 179);
+
+  border-top-style: dashed;
+  border-bottom-style: double;
+  border-left-style: solid;
+  border-right-style: dotted;
+
+  border-width: 4px 8px 6px 12px;
+
+  border-color: blue Brown green yellow;
+  font-size: 60px;
+  color: darkgreen;
+}
