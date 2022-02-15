@@ -1,0 +1,17 @@
+var firstTarget = document.getElementById("new");
+var secondTarget = document.getElementsByTagName("p");
+var thirdTarget = document.getElementsByClassName("para");
+var forthTarget = document.querySelector("para");
+var fifthTarget = document.querySelectorAll("para");
+var childEl = document.getElementById("app");
+var parElem = document.getElementById("app");
+var newElem = document.createElement("li");
+newElem.textContent = "Hello World";
+parElem.replaceChild(newElem, parElem.firstElementChild);
+console.log(firstTarget);
+console.log(secondTarget);
+console.log(thirdTarget);
+console.log(forthTarget);
+console.log(fifthTarget);
+console.log(childEl.firstChild);
+console.log(newElem);
